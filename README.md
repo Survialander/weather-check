@@ -24,6 +24,11 @@ docker build -t weather-check .
 docker run --rm -p 8080:8080 weather-check
 ```
 
+Ou utilize o docker compose:
+```
+docker-compose up
+```
+
 A aplicação está pronta para ser utilizada, um exemplo de requisição:
 ```
 http://localhost:8080/?cep=17560015
@@ -31,5 +36,5 @@ http://localhost:8080/?cep=17560015
 
 A aplicação também pode ser testada sem a necessidade de subir o projeto na sua máquina, ela está hospedada no seguinte endereço:
 ```
-https://weather-check-app-cfpxj7qd6a-rj.a.run.app/?cep=
+https://weather-cfpxj7qd6a-uc.a.run.app/?cep=
 ```

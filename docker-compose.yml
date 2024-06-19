@@ -1,0 +1,6 @@
+services:
+  weather-app:
+    image: weather-app
+    build: .
+    ports:
+      - 8080:8080
